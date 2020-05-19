@@ -11,19 +11,19 @@
 variable "project_name" {
   //type        = "string"
   description = "The name of the project to instanciate the instance at."
-  default     = "CHANGE-ME"
+  default     = "demos-sed-security-kruse"
 }
 
 variable "region_name" {
   //type        = "string"
   description = "The region that this terraform configuration will instanciate at."
-  default     = "us-west1"
+  default     = "us-east4"
 }
 
 variable "zone_name" {
   //type        = "string"
   description = "The zone that this terraform configuration will instanciate at."
-  default     = "us-west1-a"
+  default     = "us-east4-c"
 }
 
 variable "machine_size" {
@@ -40,31 +40,31 @@ variable "image_name" {
 
 variable "network" {
   description = "The name of the network create this instance in."
-  default     = "CHANGE-ME"
+  default     = "default"
 }
 
 variable "subnetwork" {
   description = "The name of the subnetwork create this instance in."
-  default     = "CHANGE-ME"
+  default     = "default"
 }
 
-variable "tags" {
-  type        = list(string)
-  default     = ["CHANGE-ME","CHANGE-ME"]
-  description = "Network tags, provided as a list"
-}
+//variable "tags" {
+// type        = list(string)
+// default     = ["CHANGE-ME","CHANGE-ME"]
+// description = "Network tags, provided as a list"
+//}
 
 // Secure Access Cloud
 variable "tenant_domain" {
-  default = "CHANGE-ME"
+  default = "symcskruse.luminatesite.com"
 }
 
 variable "luminate_user" {
-  default = "CHANGE-ME"
+  default = "symcskruse"
 }
 
 //variable "luminate_group" {
-  //default = "CHANGE-ME"
+  //default = "(Built-in) All Administrators"
 //}
 
 // GitHub

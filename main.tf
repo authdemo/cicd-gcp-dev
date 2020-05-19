@@ -19,7 +19,7 @@ provider "google" {
 terraform {
   required_version = "~>0.12.0"
     backend "gcs" {
-    bucket  = "CHANGE-ME"
+    bucket  = "demos-sed-sec-kruse"
     prefix  = "terraform/state"
   }
 }
