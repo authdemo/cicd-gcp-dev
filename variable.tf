@@ -40,12 +40,12 @@ variable "image_name" {
 
 variable "network" {
   description = "The name of the network create this instance in."
-  default     = "default"
+  default     = "sk-cicd-dev-net"
 }
 
 variable "subnetwork" {
   description = "The name of the subnetwork create this instance in."
-  default     = "default"
+  default     = "sk-cicd-dev-subnet"
 }
 
 //variable "tags" {
@@ -60,7 +60,7 @@ variable "tenant_domain" {
 }
 
 variable "luminate_user" {
-  default = "symcskruse"
+  default = "steve"
 }
 
 //variable "luminate_group" {
