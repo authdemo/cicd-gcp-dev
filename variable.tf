@@ -60,12 +60,12 @@ variable "tenant_domain" {
 }
 
 variable "luminate_user" {
-  default = "steve"
+  default = "steve@symcskruse.luminatesite.com"
 }
 
 //variable "luminate_group" {
-  //default = "(Built-in) All Administrators"
-//}
+  default = "Demo Group"
+}
 
 // GitHub
 variable "git_repo" {
