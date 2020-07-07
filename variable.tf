@@ -48,11 +48,11 @@ variable "subnetwork" {
   default     = "sk-cicd-dev-subnet"
 }
 
-//variable "tags" {
-// type        = list(string)
-// default     = ["CHANGE-ME","CHANGE-ME"]
-// description = "Network tags, provided as a list"
-//}
+variable "tags" {
+type        = list(string)
+default     = "demos-SED-Security-Kruse"
+description = "Network tags, provided as a list"
+}
 
 // Secure Access Cloud
 variable "tenant_domain" {
