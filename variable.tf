@@ -49,7 +49,7 @@ variable "subnetwork" {
 }
 
 variable "tags" {
-type        = list(string)
+// type        = list(string)
 default     = "demos-SED-Security-Kruse"
 description = "Network tags, provided as a list"
 }
@@ -63,8 +63,7 @@ variable "luminate_user" {
   default = "steve@symcskruse.luminatesite.com"
 }
 
-//variable "luminate_group" 
-{
+variable "luminate_group" {
   default = "Demo Group"
 }
 
