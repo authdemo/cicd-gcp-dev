@@ -50,7 +50,7 @@ variable "subnetwork" {
 
 variable "tags" {
 // type        = list(string)
-default     = "demos-SED-Security-Kruse"
+default     = ["cicd-block-ext","cicd-allow-int"]
 description = "Network tags, provided as a list"
 }
 
