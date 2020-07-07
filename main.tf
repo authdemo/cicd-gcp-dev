@@ -103,7 +103,7 @@ data "luminate_user" "users" {
   users                = [var.luminate_user]
 }
 
-//data "luminate_group" "groups" {
-  //identity_provider_id = data.luminate_identity_provider.idp.identity_provider_id
-  //groups               = [var.luminate_group]
-//}
+data "luminate_group" "groups" {
+  identity_provider_id = data.luminate_identity_provider.idp.identity_provider_id
+  groups               = [var.luminate_group]
+}
