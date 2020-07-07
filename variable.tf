@@ -63,7 +63,7 @@ variable "luminate_user" {
   default = "steve@symcskruse.luminatesite.com"
 }
 
-//variable "luminate_group" 
+variable "luminate_group" 
 {
   default = "Demo Group"
 }
